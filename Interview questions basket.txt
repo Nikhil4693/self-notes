@@ -1,0 +1,41 @@
+
+LOGICAL QUESTIONS
+---------------------------------------------------------------
+WAP to write occurences of string and sort them i ascending way.
+1 emp name ascending
+2 emp name - no.oc
+int nOc=0;
+int SOc=0;
+
+WAP to create a random string.
+WAP to check whether a character is present in string or not.
+
+
+CORE JAVA
+---------------------------------------------------------------
+difference between string, stringbuilder,stringbuffer
+why collections are used
+hashmap, hastable
+what is functinal interface
+why we use lambda expression
+
+how many ways we can define class and object?
+when should we go for inheritance.
+why we use linkedList or array list?
+
+
+
+how security is implemented?
+how to communicate to microservices?
+
+JPA hibernate JPA
+
+
+
+Entity mapping
+group by
+difference between natural join and inner join
+write a query to get second highest sallary from employee table
+-----------------------------------------------------------------------------------
+
+
