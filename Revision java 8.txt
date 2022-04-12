@@ -1,0 +1,56 @@
+Functional interface
+=======================
+on abstract, more default or static
+Predicate ==> one argument function only checks the condition and return boolean value test()
+Function ===> same as Predicate only return typ is any type. apply()
+
+
+
+Default methods
+=======================
+used to implement new functionalities without breaking the contract with implemented casses
+used to solve diamond problem in multiple inheritence
+not mandatory to override default methods , can override based on requirement
+
+
+Collection Sorting
+=======================
+ascending sorting
+Collections.sort();
+stream.sorted();
+
+
+descending sorting
+Collections.sort().reverse();
+stream.sorted().reverse();
+
+custom sorting is done by Comparator interface
+Comparator.comparing(method reference OR lambda expression);
+Comparator.comparing(method reference OR lambda expression.reverse());
+
+
+
+Method Reference
+=======================
+* it provides easiest way to implement method
+reference to static method : ClassName::static-method-name
+reference to instance method : classObject::instance-method-name
+reference to constructor : ClassName::new;
+
+Stream
+=======================
+Creation of stream
+------------------------
+Stream.of(1,2,3,2,,1,2,1,2)
+Stream.of(array)
+list.stream()
+
+Intermediate operations
+------------------------
+filter
+map
+reduce
+
+Terminal operations
+------------------------
+collect

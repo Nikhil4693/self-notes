@@ -1,0 +1,13 @@
+dependency injection
+setter injection
+constructor injection
+SI vs CI
+CI resolving
+Cyclic dependency
+Strategy design pattern
+	1. code for composition not of inheriatnce : multiple inheritance is not possible
+	2. prefer interface over implementation class ; for loose coupling
+	3. ready for extension but not for modification
+inner beans
+Null injection
+Bean inheritance : 
