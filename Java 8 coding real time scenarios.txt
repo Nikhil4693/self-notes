@@ -1,0 +1,8 @@
+java 8 coding interview questions
+https://javahungry.blogspot.com/2020/05/java-8-coding-and-programming-interview-questions.html
+
+https://blog.devgenius.io/15-practical-exercises-help-you-master-java-stream-api-3f9c86b1cf82
+
+https://javaconceptoftheday.com/solving-real-time-queries-using-java-8-features-employee-management-system/  =>DONE
+
+https://www.javachinna.com/java-8-stream-functions-with-examples/

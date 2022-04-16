@@ -1,13 +1,55 @@
 dependency injection
+dependency lookup
 setter injection
 constructor injection
 SI vs CI
 CI resolving
 Cyclic dependency
 Strategy design pattern
-	1. code for composition not of inheriatnce : multiple inheritance is not possible
+	1. code for composition not for inheriatnce : multiple inheritance is not possible
 	2. prefer interface over implementation class ; for loose coupling
 	3. ready for extension but not for modification
 inner beans
 Null injection
-Bean inheritance : 
+Bean inheritance
+Aware injection : makes application non-invasive
+	ApplicatinoContextAware
+	BeanFactoryAware
+	BeanNameAware
+Lookup method injection : make target class abstract, write abstract method which will return
+	dependent class object.
+	configure in config file using <lookup-method name="" ref="dep-class-ref">
+	
+	
+Annotations
+===============
+@Required - used to make DI mandatory on specific field of target class
+@Autowired - perfoms byName, byType, constructor mode of auto wiring
+on top of constructor=> perfomrs constructor mode of auto wiring
+on top of field, setter method, any method => byName mode of auto wiring
+
+
+@Autowired(required=true)
+@Autowired(required=false)
+
+@Qualifier => perfoms byName mode of autowiring , it is used to solve ambiguity problem which comes when
+	we configure multiple dependent classes which leads to ambiguity problem.
+
+@Value => used to take inject values taken from properties file
+				=> usedd to configure simple properties of DI
+Stereotype Annotation
+-----------------------------------
+@Component
+@Controller
+@Service
+@Repository
+
+Java Specified Annotations
+========================
+@Inject => similar to @Autowired , only it doesn't have parameters like @Autowired
+
+@Named  
+=> makes noral java class as Spring bean like @Component
+=> Resolves ambiguity problem happens while doing byType  mode of auto wiring. alternate to @Qualifier
+
+@Resource => used to do byName,byType, constructor mode of autowiring

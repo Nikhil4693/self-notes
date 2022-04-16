@@ -1,0 +1,8 @@
+SUB QUERIES
+QUERY INSIDE ANOTHER QUERY CALLED AS SUB QUERY
+1. CO-RELATED SUB QUERIY => EXECUTION ORDER PARENT QUERY THEN CHILD QUERY
+2. NON CO-RELATED SUB QUERIY => EXECUTION ORDER CHILD QUERY  THEN PARENT QUERY
+    Single row sub query‟s -> which returns single values. (we use logical operators)
+    Multiple row sub query‟s
+    Multiple column sub query‟s
+    Inline view or sub query‟s are using in “from” clause.
