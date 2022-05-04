@@ -16,15 +16,18 @@ not mandatory to override default methods , can override based on requirement
 Collection Sorting
 =======================
 ascending sorting
+---------------------
 Collections.sort();
 stream.sorted();
 
 
 descending sorting
+---------------------
 Collections.sort().reverse();
 stream.sorted().reverse();
 
 custom sorting is done by Comparator interface
+---------------------------------------------------------------
 Comparator.comparing(method reference OR lambda expression);
 Comparator.comparing(method reference OR lambda expression.reverse());
 

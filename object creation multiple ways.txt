@@ -1,0 +1,8 @@
+In Java, we can create objects with 6 different methods which are:
+
+By new keyword
+By newInstance() method of Class class
+By newInstance() method of constructor class
+By clone() method
+By deserialization
+By factory method
