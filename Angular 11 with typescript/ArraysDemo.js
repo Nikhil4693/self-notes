@@ -1,0 +1,12 @@
+var names;
+names = ['ankur', 'dhanu', 'manu'];
+console.log(names);
+var surnames;
+surnames = ['wadatkar', 'sabale'];
+console.log(surnames);
+var randomData;
+randomData = ['ssss', 654, 'fsdfs'];
+console.log(randomData);
+var anyData;
+anyData = ['ssss', 654, 'fsdfs', true, 12.23];
+console.log(anyData);
